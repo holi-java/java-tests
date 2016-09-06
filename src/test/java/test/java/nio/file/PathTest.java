@@ -24,7 +24,7 @@ public class PathTest {
     assertThat(real.getParent(), is(notNullValue()));
   }
 
-  @Test public void returnRealFileWhenGetRealPath() throws Exception {
+  @Test public void realPath() throws Exception {
     Path path1 = virtual.toRealPath();
     Path path2 = real.toRealPath();
 
